@@ -1,0 +1,314 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body, .wrap {
+    background: #0a0b0d;
+  }
+
+  .wrap {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+  }
+
+  /* ── VARIANT A — Full lockup, wide ── */
+  .brand-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .brand-a .eyebrow {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    color: #3a3e44;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .brand-a .wordmark {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    letter-spacing: 0.12em;
+    line-height: 1;
+    color: #e8eaec;
+    position: relative;
+  }
+
+  .brand-a .wordmark .rx {
+    color: #cc1a1a;
+  }
+
+  .brand-a .wordmark .dot {
+    color: #cc1a1a;
+    font-size: 64px;
+    vertical-align: middle;
+    margin: 0 1px;
+  }
+
+  .brand-a .wordmark .term {
+    color: #e8eaec;
+    letter-spacing: 0.14em;
+  }
+
+  .brand-a .rule {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #cc1a1a 30%, #cc1a1a 70%, transparent);
+    margin-top: 6px;
+  }
+
+  .brand-a .tagline {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.35em;
+    color: #3e4248;
+    text-transform: uppercase;
+    margin-top: 7px;
+  }
+
+
+  /* ── VARIANT B — Stacked, editorial ── */
+  .brand-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 0 10px;
+  }
+
+  .brand-b .line1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    color: #cc1a1a;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 2px;
+  }
+
+  .brand-b .line2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 88px;
+    letter-spacing: 0.06em;
+    line-height: 0.88;
+    color: #e8eaec;
+  }
+
+  .brand-b .line3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.6em;
+    color: #2e3238;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-top: 1px solid #1e2124;
+    padding-top: 7px;
+    width: 100%;
+  }
+
+  .brand-b .accent-stripe {
+    width: 44px;
+    height: 3px;
+    background: #cc1a1a;
+    margin-top: 14px;
+  }
+
+
+  /* ── VARIANT C — BMW kidney / inline badge style ── */
+  .brand-c {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .brand-c .left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    padding-right: 18px;
+    border-right: 1px solid #1e2124;
+  }
+
+  .brand-c .left-block .top {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 0.08em;
+    color: #cc1a1a;
+    line-height: 1;
+  }
+
+  .brand-c .left-block .bottom {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    color: #2e3238;
+    text-transform: uppercase;
+  }
+
+  .brand-c .right-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .brand-c .right-block .main {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 0.14em;
+    color: #e8eaec;
+    line-height: 1;
+  }
+
+  .brand-c .right-block .sub {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    color: #2a2e32;
+    text-transform: uppercase;
+  }
+
+
+  /* ── VARIANT D — ultra minimal Ferrari Prancing Horse energy ── */
+  .brand-d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    position: relative;
+  }
+
+  .brand-d .shield {
+    width: 56px;
+    height: 64px;
+    background: #cc1a1a;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+
+  .brand-d .shield::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.07) 0%, transparent 60%);
+  }
+
+  .brand-d .shield-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand-d .name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 52px;
+    letter-spacing: 0.16em;
+    color: #e0e2e4;
+    line-height: 1;
+  }
+
+  .brand-d .spec {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    color: #2c3036;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+
+
+  /* section dividers */
+  .variant-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #222529;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: -40px;
+    align-self: flex-start;
+    padding-left: 60px;
+  }
+
+  .sep {
+    width: calc(100% - 120px);
+    height: 1px;
+    background: #151719;
+  }
+</style>
+
+<div class="wrap">
+
+  <!-- A -->
+  <div class="variant-label">I — centerline</div>
+  <div class="brand-a">
+    <div class="eyebrow">Professional Terminal</div>
+    <div class="wordmark">
+      <span class="rx">RX</span><span class="dot">·</span><span class="term">TERM</span>
+    </div>
+    <div class="rule"></div>
+    <div class="tagline">Engineered for speed</div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- B -->
+  <div class="variant-label">II — stacked editorial</div>
+  <div class="brand-b">
+    <div class="line1">RX</div>
+    <div class="line2">TERM</div>
+    <div class="accent-stripe"></div>
+    <div class="line3">Terminal&nbsp;&nbsp;·&nbsp;&nbsp;v2.0</div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- C -->
+  <div class="variant-label">III — inline split</div>
+  <div class="brand-c">
+    <div class="left-block">
+      <div class="top">RX</div>
+      <div class="bottom">Series II</div>
+    </div>
+    <div class="right-block">
+      <div class="main">TERM</div>
+      <div class="sub">by Ranjith</div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- D -->
+  <div class="variant-label">IV — shield mark</div>
+  <div class="brand-d">
+    <div class="shield">
+      <div class="shield-text">RX</div>
+    </div>
+    <div class="name">TERM</div>
+    <div class="spec">v2.0 · Windows Edition</div>
+  </div>
+
+</div>

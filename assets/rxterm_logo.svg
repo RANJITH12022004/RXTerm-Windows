@@ -1,0 +1,62 @@
+<svg width="100%" viewBox="0 0 680 380" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">RXTerm Logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A sleek terminal logo for RXTerm featuring a dark terminal window with glowing green cursor and stylized RX branding</desc>
+
+  <defs>
+    
+  </defs>
+
+  <!-- Terminal window body -->
+  <rect x="60" y="30" width="560" height="320" rx="14" ry="14" fill="#0d1117" style="fill:rgb(13, 17, 23);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Top bar -->
+  <rect x="60" y="30" width="560" height="40" rx="14" ry="14" fill="#1c2333" style="fill:rgb(28, 35, 51);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="60" y="50" width="560" height="20" fill="#1c2333" style="fill:rgb(28, 35, 51);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Window dots -->
+  <circle cx="92" cy="50" r="6" style="fill:rgb(255, 95, 87);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="112" cy="50" r="6" style="fill:rgb(254, 188, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="132" cy="50" r="6" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Title bar label -->
+  <text x="340" y="55" text-anchor="middle" fill="#58677a" font-family="'Courier New', monospace" font-size="12" font-weight="500" style="fill:rgb(88, 103, 122);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:12px;font-weight:500;text-anchor:middle;dominant-baseline:auto">rxterm — bash</text>
+
+  <!-- Divider line -->
+  <line x1="60" y1="70" x2="620" y2="70" stroke="#2a3448" stroke-width="1" style="fill:rgb(0, 0, 0);stroke:rgb(42, 52, 72);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Prompt line 1 -->
+  <text x="90" y="108" style="fill:rgb(61, 201, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:15px;font-weight:700;text-anchor:start;dominant-baseline:auto">user@rxterm:~$</text>
+  <text x="252" y="108" fill="#c9d1d9" font-family="'Courier New', monospace" font-size="15" style="fill:rgb(201, 209, 217);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:15px;font-weight:400;text-anchor:start;dominant-baseline:auto">launch --fast</text>
+
+  <!-- Prompt line 2 -->
+  <text x="90" y="136" style="fill:rgb(61, 201, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:15px;font-weight:700;text-anchor:start;dominant-baseline:auto">user@rxterm:~$</text>
+  <text x="252" y="136" fill="#c9d1d9" font-family="'Courier New', monospace" font-size="15" style="fill:rgb(201, 209, 217);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:15px;font-weight:400;text-anchor:start;dominant-baseline:auto">echo "RXTerm ready"</text>
+
+  <!-- Output line -->
+  <text x="90" y="162" fill="#3dc95a" font-family="'Courier New', monospace" font-size="15" font-weight="700" style="fill:rgb(61, 201, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:15px;font-weight:700;text-anchor:start;dominant-baseline:auto">RXTerm ready</text>
+
+  <!-- Separator -->
+  <line x1="90" y1="180" x2="590" y2="180" stroke="#1e2d40" stroke-width="1" stroke-dasharray="4,4" style="fill:rgb(0, 0, 0);stroke:rgb(30, 45, 64);color:rgb(255, 255, 255);stroke-width:1px;stroke-dasharray:4px, 4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Big logo text: RX -->
+  <text x="152" y="268" font-size="100" fill="#ffffff" opacity="0.07" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.07;font-family:&quot;Courier New&quot;, monospace;font-size:100px;font-weight:900;text-anchor:start;dominant-baseline:auto">RX</text>
+
+  <!-- Styled RX overlaid -->
+  <!-- R -->
+  <text x="138" y="264" font-family="'Courier New', monospace" font-size="88" font-weight="900" fill="#ffffff" letter-spacing="-4px" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:88px;font-weight:900;text-anchor:start;dominant-baseline:auto">R</text>
+  <!-- X in green -->
+  <text x="236" y="264" font-family="'Courier New', monospace" font-size="88" font-weight="900" fill="#3dc95a" letter-spacing="-4px" style="fill:rgb(61, 201, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:88px;font-weight:900;text-anchor:start;dominant-baseline:auto">X</text>
+
+  <!-- TERM label -->
+  <text x="340" y="264" font-family="'Courier New', monospace" font-size="38" font-weight="700" fill="#3dc95a" opacity="0.9" style="fill:rgb(61, 201, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Courier New&quot;, monospace;font-size:38px;font-weight:700;text-anchor:start;dominant-baseline:auto">TERM</text>
+
+  <!-- Blinking cursor after prompt on last line -->
+  <text x="90" y="305" style="fill:rgb(61, 201, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:15px;font-weight:700;text-anchor:start;dominant-baseline:auto">user@rxterm:~$</text>
+  <rect x="252" y="289" width="9" height="18" style="fill:rgb(61, 201, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Bottom tag -->
+  <text x="340" y="335" text-anchor="middle" style="fill:rgb(88, 103, 122);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Courier New&quot;, monospace;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">REACTIVE · EXTENDED · TERMINAL</text>
+
+  <!-- Border glow ring (subtle green) -->
+  <rect x="60" y="30" width="560" height="320" rx="14" ry="14" fill="none" stroke="#3dc95a" stroke-width="1.5" opacity="0.25" style="fill:none;stroke:rgb(61, 201, 90);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
